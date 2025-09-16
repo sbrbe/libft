@@ -32,8 +32,11 @@ Implémentation d’une liste chaînée générique :
 ## 📂 Organisation
 
 libft/
+
 ├── Makefile
+
 ├── libft.h
+
 ├── ft_*.c
 
 
