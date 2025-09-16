@@ -13,7 +13,7 @@ La librairie contient plusieurs catégories de fonctions :
 Reproduction des fonctions standards telles que :
 - `memset`, `bzero`, `memcpy`, `memmove`, `strlcpy`, `strlcat`
 - `toupper`, `tolower`, `isdigit`, `isalpha`, etc.
-- `strlen`, `strchr`, `strrchr`, `strncmp`, `strnstr`, `strcmp`
+- `strlen`, `strchr`, `strrchr`, `strncmp`, `strnstr`
 
 ### Fonctions supplémentaires
 Fonctions utilitaires demandées par le sujet :
@@ -31,3 +31,31 @@ Implémentation d’une liste chaînée générique :
 
 ## 📂 Organisation
 
+libft/
+├── Makefile
+├── libft.h
+├── ft_*.c
+
+
+- **libft.h** : contient toutes les déclarations des fonctions.  
+- **Makefile** : compilation avec les règles classiques (`make`, `make clean`, `make fclean`, `make re`).
+
+---
+
+## ⚙️ Compilation
+
+Pour compiler la librairie :  
+
+make
+---
+Pour supprimer les fichiers objets :
+
+make clean
+---
+Pour tout nettoyer (objets + librairie) :
+
+make fclean
+---
+Pour recompiler à neuf :
+
+make re
