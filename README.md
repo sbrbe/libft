@@ -48,18 +48,22 @@ libft/
 ## ⚙️ Compilation
 
 Pour compiler la librairie :  
-
+``` bash
 make
+```
 ---
 Pour supprimer les fichiers objets :
-
+```bash
 make clean
+```
 ---
 Pour tout nettoyer (objets + librairie) :
-
+```bash
 make fclean
+```
 ---
 Pour recompiler à neuf :
-
+```bash
 make re
+```
 ---
